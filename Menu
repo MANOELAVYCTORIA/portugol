@@ -1,0 +1,25 @@
+programa {
+	funcao inicio() {
+		
+		escreva ("MENU!" + "\n" + "1- abrir Netflix" + "\n" + "2 - Abrir Amazon Prime" + "\n" + "3 - Abrir HBO GO"+ "\n"+ "4 - Sair")
+		inteiro menu = 0
+		escreva("\n"+"Digite sua opção: ")
+		leia(menu)
+		
+		se(menu == 1){
+		    escreva("\n"+ "A opção escolhida foi Netlix!")
+		}
+		se(menu==2){
+		    escreva("\n" + "A opção escolhida foi Amazon Prime!")
+		}
+		se(menu==3){
+		    escreva("\n" + "A opção escolhida foi HBO GO!")
+		}
+		se(menu==4){
+		    escreva("\n" + "Você saiu do Menu")
+		}
+		senao {
+		    escreva("\n"+"As opções escolhidas devem ser 1, 2, 3 ou 4")
+		}
+	}
+}
