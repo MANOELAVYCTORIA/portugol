@@ -21,5 +21,12 @@ programa {
 		media = (nota1+nota2+nota3+nota4)/4
 		
 		escreva("A média do aluno " + aluno + " é: "+media)
+		
+		se (media>=7){
+		    escreva("\n"+ "Parabéns, você foi aprovado!")
+		    
+		}senao{
+		    escreva("\n" + "Você foi reprovado")
+		}
 	}
 }
